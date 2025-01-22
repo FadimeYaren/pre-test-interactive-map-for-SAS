@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Campus Map</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .map-container {
+            border: 2px solid #333;
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        svg {
+            width: 100%;
+            height: auto;
+        }
+
+        .highlight {
+            fill: red !important;
+        }
+    </style>
+</head>
+<body>
+    <h1>Interactive Campus Map</h1>
+
+    <div class="map-container">
+        <!-- SVG Map -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3598 1712" id="campusMap">
+            <g id="Building_A" data-name="Building A">
+              <g>
+                <rect x="1100.5" y="199.5" width="434" height="349" fill="#fff"/>
+                <path d="m1534,200v348h-433V200h433m1-1h-435v350h435V199h0Z"/>
+              </g>
+            </g>
+            <g id="Building_B" data-name="Building B">
+              <g>
+                <rect x="1100.5" y="1225.5" width="434" height="370" fill="#fff"/>
+                <path d="m1534,1226v369h-433v-369h433m1-1h-435v371h435v-371h0Z"/>
+              </g>
+            </g>
+            <g id="foodlab">
+              <g>
+                <rect x="1792.5" y="637.5" width="124" height="185" fill="#fff"/>
+                <path d="m1916,638v184h-123v-184h123m1-1h-125v186h125v-186h0Z"/>
+              </g>
+              <g>
+                <rect x="1917.5" y="637.5" width="424" height="92" fill="#fff"/>
+                <path d="m2341,638v91h-423v-91h423m1-1h-425v93h425v-93h0Z"/>
+              </g>
+              <g>
+                <rect x="2256.5" y="730.5" width="85" height="92" fill="#fff"/>
+                <path d="m2341,731v91h-84v-91h84m1-1h-86v93h86v-93h0Z"/>
+              </g>
+            </g>
+            <g id="library">
+              <g>
+                <rect x="1792.5" y="891.5" width="124" height="184" fill="#fff"/>
+                <path d="m1916,892v183h-123v-183h123m1-1h-125v185h125v-185h0Z"/>
+              </g>
+              <g>
+                <rect x="1917.5" y="983.5" width="338" height="92" fill="#fff"/>
+                <path d="m2255,984v91h-337v-91h337m1-1h-339v93h339v-93h0Z"/>
+              </g>
+              <g>
+                <rect x="2256.5" y="891.5" width="85" height="184" fill="#fff"/>
+                <path d="m2341,892v183h-84v-183h84m1-1h-86v185h86v-185h0Z"/>
+              </g>
+            </g>
+            <g id="pool1">
+              <g>
+                <ellipse cx="1337.5" cy="855.5" rx="116" ry="121" fill="#fff"/>
+                <path d="m1337.5,735c30.84,0,59.84,12.53,81.66,35.28,21.82,22.76,33.84,53.03,33.84,85.22s-12.02,62.46-33.84,85.22c-21.81,22.75-50.81,35.28-81.66,35.28s-59.84-12.53-81.66-35.28c-21.82-22.76-33.84-53.03-33.84-85.22s12.02-62.46,33.84-85.22c21.81-22.75,50.81-35.28,81.66-35.28m0-1c-64.34,0-116.5,54.4-116.5,121.5s52.16,121.5,116.5,121.5,116.5-54.4,116.5-121.5-52.16-121.5-116.5-121.5h0Z"/>
+              </g>
+            </g>
+            <g id="rectorate">
+              <g>
+                <rect x="643.5" y="417.5" width="170" height="928" fill="#fff"/>
+                <path d="m813,418v927h-169V418h169m1-1h-171v929h171V417h0Z"/>
+              </g>
+            </g>
+            <g id="security">
+              <g>
+                <rect x=".5" y="642.5" width="99" height="438" fill="#fff"/>
+                <path d="m99,643v437H1v-437h98m1-1H0v439h100v-439h0Z"/>
+              </g>
+            </g>
+            <g id="dormitory">
+              <g>
+                <rect x="3301.5" y="90.5" width="296" height="217" fill="#fff"/>
+                <path d="m3597,91v216h-295V91h295m1-1h-297v218h297V90h0Z"/>
+              </g>
+            </g>
+            <g id="pool2">
+              <g>
+                <rect x="1957.5" y="776.5" width="261" height="166" fill="#fff"/>
+                <path d="m2218,777v165h-260v-165h260m1-1h-262v167h262v-167h0Z"/>
+              </g>
+            </g>
+          </svg>
+          
+    </div>
+
+    <script>
+        // Function to highlight a building
+        // Function to highlight a building
+        function highlightBuilding(buildingId) {
+            // Clear previous highlights
+            document.querySelectorAll('rect, ellipse').forEach(element => {
+                element.setAttribute('fill', '#fff'); // Tüm öğeleri beyaza döndür
+            });
+
+            // Highlight the selected building
+            const building = document.getElementById(buildingId);
+            if (building) {
+                const rectOrEllipse = building.querySelector('rect, ellipse');
+                if (rectOrEllipse) {
+                    rectOrEllipse.setAttribute('fill', 'red'); // Tıklanan öğeyi kırmızıya boyar
+                }
+            }
+        }
+
+        // Add click event listeners for each building
+        const buildingIds = [
+            'Building_A', 'Building_B', 'foodlab', 'library', 'pool1',
+            'rectorate', 'security', 'dormitory', 'pool2'
+        ];
+
+        buildingIds.forEach(buildingId => {
+            const element = document.getElementById(buildingId);
+            if (element) {
+                element.addEventListener('click', () => highlightBuilding(buildingId));
+            }
+        });
+
+    </script>
+</body>
+</html>

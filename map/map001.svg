@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3598 1712">
+  <g id="Building_A" data-name="Building A">
+    <g>
+      <rect x="1100.5" y="199.5" width="434" height="349" fill="#fff"/>
+      <path d="m1534,200v348h-433V200h433m1-1h-435v350h435V199h0Z"/>
+    </g>
+  </g>
+  <g id="Building_B" data-name="Building B">
+    <g>
+      <rect x="1100.5" y="1225.5" width="434" height="370" fill="#fff"/>
+      <path d="m1534,1226v369h-433v-369h433m1-1h-435v371h435v-371h0Z"/>
+    </g>
+  </g>
+  <g id="foodlab">
+    <g>
+      <rect x="1792.5" y="637.5" width="124" height="185" fill="#fff"/>
+      <path d="m1916,638v184h-123v-184h123m1-1h-125v186h125v-186h0Z"/>
+    </g>
+    <g>
+      <rect x="1917.5" y="637.5" width="424" height="92" fill="#fff"/>
+      <path d="m2341,638v91h-423v-91h423m1-1h-425v93h425v-93h0Z"/>
+    </g>
+    <g>
+      <rect x="2256.5" y="730.5" width="85" height="92" fill="#fff"/>
+      <path d="m2341,731v91h-84v-91h84m1-1h-86v93h86v-93h0Z"/>
+    </g>
+  </g>
+  <g id="library">
+    <g>
+      <rect x="1792.5" y="891.5" width="124" height="184" fill="#fff"/>
+      <path d="m1916,892v183h-123v-183h123m1-1h-125v185h125v-185h0Z"/>
+    </g>
+    <g>
+      <rect x="1917.5" y="983.5" width="338" height="92" fill="#fff"/>
+      <path d="m2255,984v91h-337v-91h337m1-1h-339v93h339v-93h0Z"/>
+    </g>
+    <g>
+      <rect x="2256.5" y="891.5" width="85" height="184" fill="#fff"/>
+      <path d="m2341,892v183h-84v-183h84m1-1h-86v185h86v-185h0Z"/>
+    </g>
+  </g>
+  <g id="pool1">
+    <g>
+      <ellipse cx="1337.5" cy="855.5" rx="116" ry="121" fill="#fff"/>
+      <path d="m1337.5,735c30.84,0,59.84,12.53,81.66,35.28,21.82,22.76,33.84,53.03,33.84,85.22s-12.02,62.46-33.84,85.22c-21.81,22.75-50.81,35.28-81.66,35.28s-59.84-12.53-81.66-35.28c-21.82-22.76-33.84-53.03-33.84-85.22s12.02-62.46,33.84-85.22c21.81-22.75,50.81-35.28,81.66-35.28m0-1c-64.34,0-116.5,54.4-116.5,121.5s52.16,121.5,116.5,121.5,116.5-54.4,116.5-121.5-52.16-121.5-116.5-121.5h0Z"/>
+    </g>
+  </g>
+  <g id="rectorate">
+    <g>
+      <rect x="643.5" y="417.5" width="170" height="928" fill="#fff"/>
+      <path d="m813,418v927h-169V418h169m1-1h-171v929h171V417h0Z"/>
+    </g>
+  </g>
+  <g id="security">
+    <g>
+      <rect x=".5" y="642.5" width="99" height="438" fill="#fff"/>
+      <path d="m99,643v437H1v-437h98m1-1H0v439h100v-439h0Z"/>
+    </g>
+  </g>
+  <g id="dormitory">
+    <g>
+      <rect x="3301.5" y="90.5" width="296" height="217" fill="#fff"/>
+      <path d="m3597,91v216h-295V91h295m1-1h-297v218h297V90h0Z"/>
+    </g>
+  </g>
+  <g id="katman_10" data-name="katman 10">
+    <g>
+      <rect x="117.5" y=".5" width="99" height="855" fill="#fff"/>
+      <path d="m216,1v854h-98V1h98M217,0h-100v856h100V0h0Z"/>
+    </g>
+    <g>
+      <rect x="528.5" y="308.5" width="96" height="1387" fill="#fff"/>
+      <path d="m624,309v1386h-95V309h95m1-1h-97v1388h97V308h0Z"/>
+    </g>
+    <g>
+      <rect x="117.5" y="856.5" width="99" height="855" fill="#fff"/>
+      <path d="m216,857v854h-98v-854h98m1-1h-100v856h100v-856h0Z"/>
+    </g>
+    <g>
+      <rect x="217.5" y="689.5" width="312" height="312" fill="#fff"/>
+      <path d="m529,690v311H218v-311h311m1-1H217v313h313v-313h0Z"/>
+    </g>
+    <g>
+      <rect x="814.5" y="822.5" width="406" height="67" fill="#fff"/>
+      <path d="m1220,823v66h-405v-66h405m1-1h-407v68h407v-68h0Z"/>
+    </g>
+    <g>
+      <rect x="625.5" y="308.5" width="299" height="86" fill="#fff"/>
+      <path d="m924,309v85h-298v-85h298m1-1h-300v87h300v-87h0Z"/>
+    </g>
+    <g>
+      <rect x="857.5" y="395.5" width="87" height="427" fill="#fff"/>
+      <path d="m944,396v426h-86v-426h86m1-1h-88v428h88v-428h0Z"/>
+    </g>
+    <g>
+      <rect x="857.5" y="890.5" width="87" height="805" fill="#fff"/>
+      <path d="m944,891v804h-86v-804h86m1-1h-88v806h88v-806h0Z"/>
+    </g>
+    <g>
+      <rect x="945.5" y="925.5" width="155" height="65" fill="#fff"/>
+      <path d="m1100,926v64h-154v-64h154m1-1h-156v66h156v-66h0Z"/>
+    </g>
+    <g>
+      <rect x="1035.5" y="991.5" width="64" height="133" fill="#fff"/>
+      <path d="m1099,992v132h-63v-132h63m1-1h-65v134h65v-134h0Z"/>
+    </g>
+    <g>
+      <rect x="1100.5" y="1072.5" width="644" height="52" fill="#fff"/>
+      <path d="m1744,1073v51h-643v-51h643m1-1h-645v53h645v-53h0Z"/>
+    </g>
+    <g>
+      <rect x="945.5" y="715.5" width="155" height="65" fill="#fff"/>
+      <path d="m1100,716v64h-154v-64h154m1-1h-156v66h156v-66h0Z"/>
+    </g>
+    <g>
+      <rect x="1036.5" y="568.5" width="63" height="146" fill="#fff"/>
+      <path d="m1099,569v145h-62v-145h62m1-1h-64v147h64v-147h0Z"/>
+    </g>
+    <g>
+      <rect x="1036.5" y="558.5" width="2427" height="52" fill="#fff"/>
+      <path d="m3463,559v51H1037v-51h2426m1-1H1036v53h2428v-53h0Z"/>
+    </g>
+    <g>
+      <rect x="1187.5" y="1125.5" width="64" height="25" fill="#fff"/>
+      <path d="m1251,1126v24h-63v-24h63m1-1h-65v26h65v-26h0Z"/>
+    </g>
+    <g>
+      <rect x="1035.5" y="1151.5" width="1321" height="62" fill="#fff"/>
+      <path d="m2356,1152v61h-1320v-61h1320m1-1h-1322v63h1322v-63h0Z"/>
+    </g>
+    <g>
+      <rect x="1657.5" y="611.5" width="87" height="460" fill="#fff"/>
+      <path d="m1744,612v459h-86v-459h86m1-1h-88v461h88v-461h0Z"/>
+    </g>
+    <g>
+      <rect x="1454.5" y="822.5" width="202" height="67" fill="#fff"/>
+      <path d="m1656,823v66h-201v-66h201m1-1h-203v68h203v-68h0Z"/>
+    </g>
+    <rect x="2356.5" y="610.5" width="51" height="603" fill="#fff" stroke="#000" stroke-miterlimit="10"/>
+    <g>
+      <rect x="217.5" y=".5" width="1875" height="111" fill="#fff"/>
+      <path d="m2092,1v110H218V1h1874m1-1H217v112h1876V0h0Z"/>
+    </g>
+    <g>
+      <rect x="1982.5" y="112.5" width="110" height="445" fill="#fff"/>
+      <path d="m2092,113v444h-109V113h109m1-1h-111v446h111V112h0Z"/>
+    </g>
+  </g>
+  <g id="pool2">
+    <g>
+      <rect x="1957.5" y="776.5" width="261" height="166" fill="#fff"/>
+      <path d="m2218,777v165h-260v-165h260m1-1h-262v167h262v-167h0Z"/>
+    </g>
+  </g>
+</svg>
